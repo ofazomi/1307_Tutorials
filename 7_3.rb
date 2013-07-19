@@ -7,7 +7,7 @@ while 'Elodio' > 'Bertine'
 		else
 			break
 		end
-	endb y
+	end
 
 puts 'kay, bye.'
 
