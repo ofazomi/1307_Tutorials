@@ -44,7 +44,7 @@ sleep 2
 puts 'Here are all the leap years between the years ' + numSm.to_s + ' and ' + numBig.to_s + ':'
 
 while numSm <= numBig
-    if (num%100 != 0 && num%4 == 0) || num%400 == 0
+    if (numSm%100 != 0 && numSm%4 == 0) || numSm%400 == 0
         puts numSm.to_s
         else
         end
