@@ -1,5 +1,5 @@
-puts 'Please provide a positive integer between'
-puts '0 and 3000 to be converted to roman numerals.'
+puts 'Please provide a year, a positive integer between'
+puts '0 and 3000, to be converted to roman numerals.'
 
 
 num = gets.chomp
